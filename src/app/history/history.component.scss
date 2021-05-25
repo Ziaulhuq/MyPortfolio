@@ -1,0 +1,39 @@
+section {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .view {
+    display: block;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+  }
+  .view i {
+    color: #ccc;
+    font-size: 30px;
+    margin-bottom: 1.5rem;
+  }
+  P {
+    font-family: sans-serif;
+    font-size: 40px;
+    margin-bottom: 1rem;
+    font-weight: 500;
+  }
+  h6 {
+    font-size: 18px;
+    font-weight: 100;
+    font-family: "Raleway", sans-serif;
+    font-weight: 900;
+    letter-spacing: 5px;
+  }
+}

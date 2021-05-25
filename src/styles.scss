@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+@fa-font-path: "../font";
+
+:root {
+  --primary-color: #000;
+  --secondary-color: yellow;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+}
